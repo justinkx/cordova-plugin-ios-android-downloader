@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-downloader-ios-android",
+  "version": "1.0.0",
+  "description": "Downloader",
+  "cordova": {
+    "id": "cordova-plugin-downloader-ios-android",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "JUSTIN K XAVIER",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinkx/cordova-plugin-ios-android-downloader.git"
+  },
+  "license": "ISC"
+}

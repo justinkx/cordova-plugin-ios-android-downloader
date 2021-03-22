@@ -105,7 +105,7 @@ public class Downloader extends CordovaPlugin {
             request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
 			}
             // Set the destination for the downloaded as defined by the user within the device files directory
-            request.setDestinationInExternalPublicDir("/"+folder, path);
+            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS +folder, path);
 
             // save the download
             downloadMap.put(downloadManager.enqueue(request), mDownload);
